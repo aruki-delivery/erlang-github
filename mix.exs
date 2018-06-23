@@ -1,15 +1,13 @@
 defmodule ErlangGithub.Mixfile do
   use Mix.Project
 
-  @elixir_vsn "~> 1.6"
-
-  @version "2.0.0"
+  @version "2.0.1"
 
   def project do
     [
       app: :egithub,
       version: @version,
-      elixir: @elixir_vsn,
+      language: :erlang,
       deps: deps(Mix.env()),
       description: "Github client for Erlang",
       package: package(),
