@@ -3,11 +3,11 @@ defmodule ErlangGithub.Mixfile do
 
   @elixir_vsn "~> 1.6"
 
-  @version "2.0.0-SNAPSHOT"
+  @version "2.0.0"
 
   def project do
     [
-      app: :jesse,
+      app: :egithub,
       version: @version,
       elixir: @elixir_vsn,
       deps: deps(Mix.env()),
