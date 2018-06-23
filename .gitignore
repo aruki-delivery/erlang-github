@@ -13,3 +13,5 @@ erl_crash.dump
 ebin
 log*/
 _build/
+.idea/
+*.iml
